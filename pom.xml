@@ -61,18 +61,6 @@
                             </sources>
                         </mapping>
                         <mapping>
-                            <directory>/usr/local/doc/helloworld</directory>
-                            <documentation>true</documentation>
-                            <filemode>444</filemode>
-                            <username>scbadmin</username>
-                            <groupname>scbgroup</groupname>
-                            <sources>
-                                <source>
-                                    <location>target/site</location>
-                                </source>
-                            </sources>
-                        </mapping>
-                        <mapping>
                             <directory>/usr/local/lib</directory>
                             <filemode>750</filemode>
                             <username>scbadmin</username>
