@@ -25,6 +25,7 @@
 	
     <build>
         <plugins>
+<!--
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>rpm-maven-plugin</artifactId>
@@ -41,7 +42,6 @@
                     <copyright>2013</copyright>
                     <distribution>SCB 2013</distribution>
                     <group>FMSD Continuous Delivery</group>
-                    <!--icon>src/main/resources/icon.gif</icon-->
                     <packager>SCB</packager>
                     <prefix>/usr/local</prefix>
                     <changelogFile>src/changelog</changelogFile>
@@ -132,6 +132,7 @@
                     </preremoveScriptlet>
                 </configuration>
             </plugin>
+-->
         </plugins>
     </build>
 </project>
